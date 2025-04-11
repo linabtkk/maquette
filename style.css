@@ -1,0 +1,684 @@
+body{ 
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+
+.reseauxHeader{
+    background-color: #CCFFFF;
+}
+
+.barreDeroulanteHeader{
+    background-color: #9A99FF;
+    border-top: 1px solid black;
+}    
+
+a{
+    text-decoration:none;
+    color: black;
+    font-size: 1em;
+    padding: 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+hr{
+    margin: 0;
+}
+
+.dropdown{
+    position: relative;
+    border-top: 2px solid lightgray;
+}
+.dropbtn {
+    background-color: #9A99FF;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.7em;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content {
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.ligne{
+    border-top: 2px solid lightgray;
+    padding: 0.5em;
+
+}
+
+.mySlidesfade img{
+    width: 100%;
+}
+
+.mySlidesfade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 42%;
+    width: auto;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    clip-path: inset(0% 0% 0% 49%);
+  }
+
+  .prev {
+    clip-path: inset(0% 49% 0% 0%);
+  }
+
+  .caroussel{
+    background-color: #CCFFFF;
+    padding: 2em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: none;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .dots{
+    text-align:center;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+.descriptionContainerUn{
+    background-color: #9A99FF;
+    display: flex;
+    padding: 1.5em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+.titreUn{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;    
+    margin-left: 1em;
+    line-height: 1.7em;
+    color: white;
+}
+
+.description p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+.descriptionn p , .description2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+    font-size: 0.8em;
+
+}
+
+.red{
+    color: red;
+}
+
+.aboutUsContainer{
+    background-color: #CCFFFF ;
+}
+
+.descriptionDeuxTexte{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 1.3em;
+    margin-left: 0.2em;
+}
+
+.destinationTexte p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+    margin-left: 4em;
+    margin-top: 1.4em;
+}
+
+.aboutUsText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin-left: 0.2em;
+}
+
+.aboutUsContainer{
+    border-top: 1px solid black;
+}
+
+.subscribe{
+    background-color: #78A561;
+    padding: 0.8em;
+    color: white;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    width: 8em;
+    margin-left: 0.2em;
+
+}
+
+/*Footer*/
+
+
+.footerLink a{
+    /* display: flex; */
+    font-size: 0.80em;
+    color: black;
+    margin-right: 2em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerLink{
+    max-width: 16em;
+    margin-left: 0.7em;
+}
+
+.footerContainer{
+    background-color: #9A99FF;
+    border-top: 1px solid black;
+}
+
+.footerCopyRight{
+    color: darkslategrey;
+    margin-left: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
+/* Page mobile */
+
+@media screen and (max-width: 376px){ /*prend pas en compte le  hiffre pile , rajoutez +1 */
+
+    .barreDeroulanteHeader img{
+        width: 20em;
+        height: 7em;
+        display: block;
+        margin: auto;
+        
+    }  
+    
+    .destinationimg1 img{
+        width: 15em;
+        height: 15em;
+        border: 1px solid grey;
+        padding: 0.3em;
+        border-radius: 0.3em;
+        display: block;
+        margin: auto;
+    }
+
+    .whyUsContainer{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .whyUsText p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+        margin: 0;
+        margin-left: 2em;
+        max-width: 12.5em;
+        line-height: 1.7em;
+    }
+
+    .whyUsImg img{
+        width: 6;
+    }
+
+    .flagContainer{
+        display: none;
+    }
+    .description2 p{
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+
+    .descriptionn p {
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+
+
+}
+
+@media screen and (min-width: 377px) and (max-width: 431px){
+    
+    .barreDeroulanteHeader {
+        padding: 3em;
+    }
+    .barreDeroulanteHeader img{
+        width: 15em;
+        display: block;
+        margin: auto;
+    }  
+
+    .destinationimg1 img{
+        width: 21em;
+        height: 15em;
+        border: 1px solid grey;
+        padding: 0.3em;
+        border-radius: 0.3em;
+        display: block;
+        margin: auto;
+    }
+    .whyUsContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .whyUsText p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+        margin: 0;
+        margin-left: 2em;
+        max-width: 17em;
+        line-height: 1.7em;
+    }
+
+    .whyUsImg img{
+        width: 5.9em;
+    }
+
+    .footerLink{
+        max-width: 20em;
+        margin: auto;
+    }
+    .footerLink a{
+        margin-right: 1em;
+        font-size: 0.7em;
+    }
+
+    .descriptionContainerUn{
+        background-color: #9A99FF;
+        display: flex;
+        padding: 1.5em;
+        margin-left: 2.4em;
+        margin-right: 2.4em;
+    }
+
+    .howToTravel{
+        padding: 3em;
+    }
+    .whyUs{
+        padding: 2.5em;
+    }
+    .aboutUs{
+        padding: 2.5em;
+    }
+    .description2 p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+        line-height: 1.7em;
+        margin-left: 2.9em;
+        margin-right: 2.9em;
+    }
+    .caroussel{
+        padding: 2.5em;
+    }
+    .descriptionDeuxTexte {
+        padding: 1.6em;
+    }
+    .flagContainer{
+        display: none;
+    }
+}
+
+@media screen and (min-width:431px) and (max-width: 821px){
+
+    .barreDeroulanteHeader img{
+        width: 15em;
+        margin-left: 3em;
+    }  
+
+    .headerContainer{
+        display: flex;
+        padding: 1.5em;
+    }
+
+    .ligne {    
+        border-top: none;
+    }
+
+    .dropdown {
+        border-top: none;
+    } 
+
+    .dropbtn {
+        padding: 0.5em;
+    }
+
+    .descriptionDeux{
+        display: none;
+    }
+
+    .flags{
+        display: flex;
+    }
+
+    .flag img{
+        width: 14em;
+        border: 1px solid grey;
+        padding: 0.3em;
+        border-radius: 0.3em;
+        display: block;
+        margin-left: 1.7em;
+    }
+
+    .destinationTexte p{
+        margin-left: 1.7em;
+    }
+
+    .flagText{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: black;
+        font-size: 1.3em;
+        margin-left: 0.2em;
+        padding: 1.5em;
+    }
+
+    .descriptionContainerUn{
+        max-width: 14em;
+        padding: 0.8em;
+    }
+    
+    .description2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+        line-height: 1.7em;
+        max-width: 19em;
+    }
+
+    .descriptionUne{
+        display: flex;
+        justify-content: center;
+    }
+
+    .descriptionContainerUn img{
+        width: 7em;
+        height: 5em;
+        align-self: center;
+    }
+
+    .footerLink{
+        max-width: 31em;
+        margin-left: 2em;
+    }
+
+    .description p{
+        max-width: 26em;
+    }
+    .descriptionn p{
+        line-height: 1.7em;
+        font-size: 0.8em;
+    }
+
+    .howToTravel{
+        padding: 2em;
+    }
+
+    .whyUs{
+        padding: 1.5em;
+    } 
+    .aboutUs{
+        padding: 1.5em;
+    }
+
+    .whyUsContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .whyUsText p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+        margin: 0;
+        margin-left: 2em;
+        max-width: 17em;
+        line-height: 1.7em;
+    }
+
+    .aboutUsContainerTwo{
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width: 821px){
+
+    .icones{
+        margin-left: 11em;
+    }
+
+    .barreDeroulanteHeader img{
+        width: 15em;
+        margin-right: 18em;
+    }
+
+    .barreDeroulanteHeader{
+        display: flex;
+        justify-content: center;
+    }  
+
+    .headerContainer{
+        display: flex;
+        padding: 1.5em;
+    }
+
+    .ligne {    
+        border-top: none;
+    }
+
+    .dropdown {
+        border-top: none;
+    } 
+
+    .dropbtn {
+        padding: 0.5em;
+    }
+
+    .headerContainer{
+        display: flex;
+        padding: 1.5em;
+    }
+
+    .ligne {    
+        border-top: none;
+    }
+
+    .dropdown {
+        border-top: none;
+    } 
+
+    .dropbtn {
+        padding: 0.5em;
+    }
+
+    .descriptionDeux{
+        display: none;
+    }
+
+    .descriptionContainerUn{
+        max-width: 18.9em;
+        padding: 0.8em;
+    }
+
+    .description2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+        line-height: 1.7em;
+        max-width: 26em;
+    }
+
+    .descriptionUne{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .flags{
+        display: flex;
+        justify-content: center;
+    }
+
+    .flag img{
+        width: 20em;
+        border: 1px solid grey;
+        padding: 0.3em;
+        border-radius: 0.3em;
+        display: block;
+        margin-left: 1em;
+    }
+
+    .flagText{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: black;
+        font-size: 1.3em;
+        margin-left: 0.2em;
+        padding: 1.5em;
+    }
+
+    .destinationTexte p{
+        margin-left: 2em;
+    }
+
+    .footerLink{
+        max-width: 30em;
+        margin-left: 11em;
+    }
+
+    .footerCopyRight{
+        margin-left: 14em;
+    }
+
+    .description p{
+        max-width: 36em;
+    }
+    .descriptionn p{
+        line-height: 1.7em;
+        font-size: 0.8em;
+        /* margin-left: 11em; */
+        max-width: 78em;
+        display: block;
+        margin: auto;
+    }
+
+    .howToTravel{
+        padding: 2em;
+    }
+
+    .aboutUs{
+       margin-right: 3em;
+    }
+
+    .whyUsContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .whyUsText p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+        margin: 0;
+        margin-left: 2em;
+        max-width: 28em;
+        line-height: 1.7em;
+    }
+
+    .aboutUsContainerTwo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .howToTravel .aboutUsText{
+        max-width: 48em;
+        display: block;
+        margin: auto;
+    }
+
+    .subscribe {
+        margin-left: 10.8em;
+    }
+    .flagText{
+        max-width: 49em;
+        display: block;
+        margin: auto;
+    }
+
+}
